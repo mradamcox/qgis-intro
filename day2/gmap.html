@@ -1,0 +1,126 @@
+<html>
+<head><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+<meta name="viewport">
+<title>Winding Roads Art Tour - Google Fusion Tables</title>
+<style type="text/css">
+html, body, #googft-mapCanvas {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#googft-legend {
+  background-color: #fff;
+  border: 1px solid #000;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  margin: 5px;
+  padding: 10px 10px 8px;
+}
+
+#googft-legend p {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+#googft-legend div {
+  margin-bottom: 5px;
+}
+
+.googft-legend-swatch {
+  border: 1px solid;
+  float: left;
+  height: 12px;
+  margin-right: 8px;
+  width: 20px;
+}
+
+.googft-legend-range {
+  margin-left: 0;
+}
+
+.googft-dot-icon {
+  margin-right: 8px;
+}
+
+.googft-paddle-icon {
+  height: 24px;
+  left: -8px;
+  margin-right: -8px;
+  position: relative;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.googft-legend-source {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.googft-legend-source a {
+  color: #666;
+  font-size: 11px;
+}
+
+</style>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&amp;libraries=visualization"></script>
+
+<script type="text/javascript">
+  function initialize() {
+    google.maps.visualRefresh = true;
+    var isMobile = (navigator.userAgent.toLowerCase().indexOf('android') > -1) ||
+      (navigator.userAgent.match(/(iPod|iPhone|iPad|BlackBerry|Windows Phone|iemobile)/));
+    if (isMobile) {
+      var viewport = document.querySelector("meta[name=viewport]");
+      viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
+    }
+    var mapDiv = document.getElementById('googft-mapCanvas');
+    mapDiv.style.width = isMobile ? '100%' : '100%';
+    mapDiv.style.height = isMobile ? '100%' : '100%';
+    var map = new google.maps.Map(mapDiv, {
+      center: new google.maps.LatLng(43.55095974498663, -90.85720766448974),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend-open'));
+    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend'));
+
+    layer = new google.maps.FusionTablesLayer({
+      map: map,
+      heatmap: { enabled: false },
+      query: {
+        select: "col7",
+        from: "1OWaA6PonHJPZZzxNpwwTIQL1w57IKyrPR6yF4DRg",
+        where: ""
+      },
+      options: {
+        styleId: 2,
+        templateId: 2
+      }
+    });
+
+    if (isMobile) {
+      var legend = document.getElementById('googft-legend');
+      var legendOpenButton = document.getElementById('googft-legend-open');
+      var legendCloseButton = document.getElementById('googft-legend-close');
+      legend.style.display = 'none';
+      legendOpenButton.style.display = 'block';
+      legendCloseButton.style.display = 'block';
+      legendOpenButton.onclick = function() {
+        legend.style.display = 'block';
+        legendOpenButton.style.display = 'none';
+      }
+      legendCloseButton.onclick = function() {
+        legend.style.display = 'none';
+        legendOpenButton.style.display = 'block';
+      }
+    }
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/onion.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/stats.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/controls.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/23/8/marker.js"></script></head>
+<body>
+    <iframe width="100%" height="100%" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col7+from+1OWaA6PonHJPZZzxNpwwTIQL1w57IKyrPR6yF4DRg&amp;viz=MAP&amp;h=false&amp;lat=43.55095974498663&amp;lng=-90.85720766448974&amp;t=1&amp;z=12&amp;l=col7&amp;y=2&amp;tmplt=2&amp;hml=TWO_COL_LAT_LNG"></iframe>
+</body>
