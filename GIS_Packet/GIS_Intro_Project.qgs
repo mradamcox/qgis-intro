@@ -3,16 +3,22 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Vernon_County_MCDs20160306204502792" name="Vernon_County_Municipal_Bounds">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vernon_County_MCDs20160306204502792" name="Vernon_County_Municipal_Bounds">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="VC_Historic_Schools20160312113551744" name="VC_Historic_Schools">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Vernon_County_DEM_FT20160306212039495" name="Vernon_County_DEM_FT">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vernon_County_Bounds20160306201722305" name="Vernon_County_Bounds">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Vernon_County_Bounds20160306201722305" name="Vernon_County_Bounds">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Bing_Satellite20160713130945577" name="Bing Satellite">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Google_Satellite20160713125404363" name="Google Satellite">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Vernon_County_DEM_FT20160306212039495" name="Vernon_County_DEM_FT">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -20,10 +26,10 @@
   <mapcanvas>
     <units>feet</units>
     <extent>
-      <xmin>593985.10240240069106221</xmin>
-      <ymin>55868.57919654056604486</ymin>
-      <xmax>861581.8005574643611908</xmax>
-      <ymax>257766.08800635859370232</ymax>
+      <xmin>683519.87953799357637763</xmin>
+      <ymin>139042.03024211170850322</ymin>
+      <xmax>691882.27635533874854445</xmax>
+      <ymax>145351.32739241904346272</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -47,11 +53,13 @@
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="USER:100001" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vernon_County_MCDs20160306204502792"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Wisconsin_Municipal_Boundaries_Spring_201620160306202344522"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cadastral_plsssection_a_wi20160306202021057"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Bing_Satellite20160713130945577"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cadastral_plsstownship_a_wi20160306201959622"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="cadastral_plsssection_a_wi11120160306202014262"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vernon_County_Bounds20160306201613695"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="VC_Historic_Schools20160312113551744"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="USER:100001" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vernon_County_DEM_FT20160306212039495"/>
+      <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Google_Satellite20160713125404363"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="vernon_mcds_wtm20160306202450919"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="USER:100011" srcDatumTransform="-1" destDatumTransform="-1" layerid="VCsections20160306202059998"/>
       <layer_coordinate_transform destAuthId="USER:100001" srcAuthId="USER:100001" srcDatumTransform="-1" destDatumTransform="-1" layerid="Vernon_County_Bounds20160306201722305"/>
@@ -63,12 +71,14 @@
       <item>Vernon_County_MCDs20160306204502792</item>
       <item>Vernon_County_DEM_FT20160306212039495</item>
       <item>VC_Historic_Schools20160312113551744</item>
+      <item>Google_Satellite20160713125404363</item>
+      <item>Bing_Satellite20160713130945577</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Vernon_County_Municipal_Bounds" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vernon_County_Municipal_Bounds" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vernon_County_MCDs20160306204502792" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Vernon_County_MCDs20160306204502792" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="VC_Historic_Schools" showFeatureCount="0">
@@ -76,14 +86,24 @@
         <legendlayerfile isInOverview="0" layerid="VC_Historic_Schools20160312113551744" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Vernon_County_DEM_FT" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Vernon_County_DEM_FT20160306212039495" visible="0"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Vernon_County_Bounds" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Vernon_County_Bounds20160306201722305" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bing Satellite" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Bing_Satellite20160713130945577" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Satellite" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Google_Satellite20160713125404363" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Vernon_County_DEM_FT" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Vernon_County_DEM_FT20160306212039495" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -166,6 +186,83 @@
     </Composition>
   </Composer>
   <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>Bing_Satellite20160713130945577</id>
+      <datasource></datasource>
+      <shortname>Bing Satellite</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bing Satellite</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value=""/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=0&amp;dir=dir_n'"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="Bing Satellite"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="18"/>
+        <property key="zmin" value="1"/>
+      </customproperties>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <id>Google_Satellite20160713125404363</id>
+      <datasource></datasource>
+      <shortname>Google Satellite</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</attribution>
+      <layername>Google Satellite</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="Multiply"/>
+        <property key="brigthness" value="170"/>
+        <property key="contrast" value="2.5"/>
+        <property key="credit" value="Map data ©2015 Google"/>
+        <property key="creditVisibility" value="1"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="https://mt1.google.com/vt/lyrs=s&amp;x={x}&amp;y={y}&amp;z={z}"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="Google Satellite"/>
+        <property key="transparency" value="40"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="20"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>VC_Historic_Schools20160312113551744</id>
       <datasource>./data/shapefiles/VC_Historic_Schools.shp</datasource>
@@ -793,7 +890,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Vernon_County_DEM_FT20160306212039495</id>
       <datasource>./data/raster/Vernon_County_DEM_FT.tif</datasource>
       <shortname></shortname>
@@ -826,15 +923,15 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.745098" alphaBand="0" classificationMax="1313.09" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="629.392" type="singlebandpseudocolor">
+        <rasterrenderer opacity="0.745098" alphaBand="-1" classificationMax="1313.52" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="629.816" type="singlebandpseudocolor">
           <rasterTransparency/>
           <rastershader>
             <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="629.392" label="629.392000" color="#d7191c"/>
-              <item alpha="255" value="800.317" label="800.316500" color="#fdae61"/>
-              <item alpha="255" value="971.241" label="971.241000" color="#ffffbf"/>
-              <item alpha="255" value="1142.17" label="1142.165500" color="#abd9e9"/>
-              <item alpha="255" value="1313.09" label="1313.090000" color="#2c7bb6"/>
+              <item alpha="255" value="629.816" label="629.816000" color="#6ed500"/>
+              <item alpha="255" value="800.742" label="800.742000" color="#b1fd20"/>
+              <item alpha="255" value="971.668" label="971.668000" color="#ffff00"/>
+              <item alpha="255" value="1142.59" label="1142.594000" color="#f4a700"/>
+              <item alpha="255" value="1313.52" label="1313.520000" color="#eb1619"/>
             </colorrampshader>
           </rastershader>
         </rasterrenderer>
@@ -1156,11 +1253,11 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
   </projectlayers>
   <properties>
-    <WMSContactPerson type="QString"></WMSContactPerson>
     <Variables>
       <variableNames type="QStringList"/>
       <variableValues type="QStringList"/>
     </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>
@@ -1173,9 +1270,9 @@ def my_form_open(dialog, layer, feature):
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
