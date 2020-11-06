@@ -1,6 +1,6 @@
 # Introduction to QGIS Course
 
-Through a partnership with the [Valley Stewardship Network]( in Viroqua, WI, Brendan Heberlien and I had the opportunity to develop and teach the following Introduction to QGIS course. We did so in March and July of 2016.
+Through a partnership with the [Valley Stewardship Network](https://valleystewardshipnetwork.org/) in Viroqua, WI, Brendan Heberlien and I had the opportunity to develop and teach the following Introduction to QGIS course. We did so in March and July of 2016.
  
 ## Course Intro
 
